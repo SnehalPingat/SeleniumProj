@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="allJewel.AllJewelleryTest">
+        <methods>
+          <include name="configBeforeClass"/>
+          <include name="configBeforeMethod"/>
+          <include name="configAfterSuite"/>
+          <include name="watchAProduct"/>
+          <include name="configBeforeSuite"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- allJewel.AllJewelleryTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
